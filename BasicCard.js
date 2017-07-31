@@ -1,10 +1,7 @@
-var BasicCard = function(front, back){
+var BasicCard = function(front,back){
 //this.card will hold all our card objects
-	this.card = [];
-
-	this.addCard = function(f, b){
-		this.front.push(new Card(f,b));
-	};
+	this.front = front;
+	this.back - back;
 };
 
 //Exports the Basic flash card constructor.
